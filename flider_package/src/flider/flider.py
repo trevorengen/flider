@@ -19,5 +19,3 @@ def flider():
         except Exception as e:
             print(e)
             print('Error on: ' + save_paths[i] + file_names[i])
-    
-flider()

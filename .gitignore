@@ -1,0 +1,9 @@
+apikey.txt
+.git
+__pycache__
+flider_package/src/Flider.egg-info/top_level.txt
+flider_package/src/Flider.egg-info/SOURCES.txt
+flider_package/src/Flider.egg-info/PKG-INFO
+flider_package/src/Flider.egg-info/dependency_links.txt
+flider_package/dist/Flider-0.0.3.tar.gz
+flider_package/dist/Flider-0.0.3-py3-none-any.whl

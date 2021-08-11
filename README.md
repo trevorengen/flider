@@ -1,4 +1,4 @@
-**<h1>Flider<h1>**
+**<h1>Flider</h1>**
 
 A quick way to build you basic file structure for flask.
 	

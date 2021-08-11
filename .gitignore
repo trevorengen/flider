@@ -7,3 +7,7 @@ flider_package/src/Flider.egg-info/PKG-INFO
 flider_package/src/Flider.egg-info/dependency_links.txt
 flider_package/dist/Flider-0.0.3.tar.gz
 flider_package/dist/Flider-0.0.3-py3-none-any.whl
+flider_package/dist/Flider-0.0.7-py3-none-any.whl
+flider_package/dist/Flider-0.0.7.tar.gz
+flider_package/dist/*-py3-none-any.whl
+flider_package/dist/*.tar.gz

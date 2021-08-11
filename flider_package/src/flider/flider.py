@@ -1,5 +1,5 @@
 import os
-def flider():
+def Flider():
     try:
         os.mkdir('flask_app')
         dirs = ['templates', 'config', 'models', 'controllers', 

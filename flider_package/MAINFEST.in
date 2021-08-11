@@ -1,2 +1,1 @@
-include src/save_files/*.flid
 recursive-include package *

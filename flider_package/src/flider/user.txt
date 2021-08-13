@@ -1,4 +1,4 @@
-from mysqlcontroller import connectToMySQL
+from flask_app.config.mysqlcontroller import connectToMySQL
 import re
 from flask import flash
 
@@ -29,7 +29,7 @@ class User:
         if len(input['password']) < 6:
             flash('Password must be at least 6 characters.')
             is_valid = False
-        elif not CAPS.search(input['password'] or not NUMS.search(input['password']):
+        elif not CAPS.search(input['password']) or not NUMS.search(input['password']):
             flash('Password must contain at least one capital letter AND one number.')
             is_valid = False
         elif input['password'] != input['confirm-password']:

@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name="Flider",
-    version="1.1.1",
+    version="1.1.7",
     author="Trevor Engen",
     author_email="Trevorengen@gmail.com",
     description="A lightweight flask skeleton builder.",

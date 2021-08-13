@@ -17,9 +17,9 @@ def Flider():
     file_names = ['index.html', 'mysqlcontroller.py', '__init__.py', 'style.css', 'scripts.js', 'server.py']
     read_names = ['index.txt', 'mysqlcontroller.txt', 'init.txt', 'style.txt', 'scripts.txt', 'server.txt']
     parser = argparse.ArgumentParser(description='Contact me on github if you have any problems!\ngithub.com/trevorengen')
-    parser.add_argument('-f', '--full', action='store_true', help='Installs all available default files.', default=False)
-    is_full_install = parser.parse_args()
-    if is_full_install:
+    parser.add_argument('-f', '--full', action='store_true', help='Installs all available default files.')
+    is_full_install = vars(parser.parse_args())
+    if 'f' in is_full_install or is_full_install['full']:
         save_paths += ['flask_app/models/', 'flask_app/controllers/']
         file_names += ['user.py', 'users.py']
         read_names += ['user.txt', 'users.txt']

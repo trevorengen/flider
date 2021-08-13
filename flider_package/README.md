@@ -34,4 +34,4 @@ Flider is just as easy to use as it is to install:
 
 *MAC/LINUX: `python3 -m flider`
 
-If you'd like to include an optional user.py model and a users.py controller just add the argument '-f' or '--full' after flider in the statement!
+**USE THE OPTION '-f' OR '--full' AFTER `py -m flider` TO INSTALL OPTIONAL USER MODEL/CONTROLLER**

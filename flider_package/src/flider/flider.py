@@ -20,9 +20,9 @@ def Flider():
     parser.add_argument('-f', '--full', action='store_true', help='Installs all available default files.')
     is_full_install = parser.parse_args()
     if is_full_install:
-        save_paths.append(['flask_app/models/', 'flask_app/controllers/'])
-        file_names.append(['user.py', 'users.py'])
-        read_names.append(['user.txt', 'users.txt'])
+        save_paths += ['flask_app/models/', 'flask_app/controllers/']
+        file_names += ['user.py', 'users.py']
+        read_names += ['user.txt', 'users.txt']
     for i in range(len(save_paths)):
         try:
             # os.path.dirname() gets the file name with the file dunder ONLY because this

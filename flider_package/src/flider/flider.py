@@ -1,5 +1,6 @@
 import os
 import pkg_resources
+import argparse
 
 
 def Flider():
@@ -15,6 +16,13 @@ def Flider():
     save_paths = ['flask_app/templates/', 'flask_app/config/', 'flask_app/', 'flask_app/static/css/', 'flask_app/static/js/', '']
     file_names = ['index.html', 'mysqlcontroller.py', '__init__.py', 'style.css', 'scripts.js', 'server.py']
     read_names = ['index.txt', 'mysqlcontroller.txt', 'init.txt', 'style.txt', 'scripts.txt', 'server.txt']
+    parser = argparse.ArgumentParser(description='Contact me on github if you have any problems!\ngithub.com/trevorengen')
+    parser.add_argument('-f', '--full', action='store_true', help='Installs all available default files.')
+    is_full_install = parser.parse_args()
+    if is_full_install:
+        save_paths.append(['flask_app/models/', 'flask_app/controllers/'])
+        file_names.append(['user.py', 'users.py'])
+        read_names.append(['user.txt', 'users.txt'])
     for i in range(len(save_paths)):
         try:
             # os.path.dirname() gets the file name with the file dunder ONLY because this

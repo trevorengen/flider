@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name="Flider",
-    version="1.0.9",
+    version="1.1.0",
     author="Trevor Engen",
     author_email="Trevorengen@gmail.com",
     description="A lightweight flask skeleton builder.",
@@ -21,10 +21,9 @@ setuptools.setup(
         "Operating System :: OS Independent",
     ],
     package_dir={"": "src"},
-    packages=['flider', 'save_files'],
+    packages=['flider'],
     python_requires=">=3.6",
     package_data={
         'flider': ['*', '*.txt'],
-        'save_files': ['*.txt'],
     },
 )

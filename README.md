@@ -34,4 +34,4 @@ Flider is just as easy to use as it is to install:
 
 *MAC/LINUX: `python3 -m flider`
 
-*USE THE OPTION '-f' OR '--full' AFTER `py -m flider` TO INSTALL OPTIONAL MODEL/CONTROLLER*
+**USE THE OPTION '-f' OR '--full' AFTER `py -m flider` TO INSTALL OPTIONAL USER MODEL/CONTROLLER**
